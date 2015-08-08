@@ -8,7 +8,7 @@ import org.junit.Test;
 /**
  * @author Christiane Lemke
  */
-public class VocabularyTest {
+public class MiniVocabularyTest {
 	
 	private String[] testWords = {
 		"house",
@@ -28,20 +28,21 @@ public class VocabularyTest {
 	
 	@Test
 	public void testIsPrefix(){
+
 		Assert.assertFalse(vocabulary.isPrefix("house"));
-		Assert.assertFalse(vocabulary.isPrefix("homework"));
 		Assert.assertFalse(vocabulary.isPrefix("cat"));
 
 		Assert.assertTrue(vocabulary.isPrefix("home"));
+		Assert.assertTrue(vocabulary.isPrefix("homework"));
 		Assert.assertTrue(vocabulary.isPrefix("homewo"));
 		Assert.assertTrue(vocabulary.isPrefix("ca"));
 	}
 	
 	@Test
 	public void isWord(){
+		Assert.assertTrue(vocabulary.isWord("cat"));
 		Assert.assertTrue(vocabulary.isWord("house"));
 		Assert.assertTrue(vocabulary.isWord("homework"));
-		Assert.assertTrue(vocabulary.isWord("cat"));
 
 		Assert.assertFalse(vocabulary.isWord("home"));
 		Assert.assertFalse(vocabulary.isWord("homewo"));
