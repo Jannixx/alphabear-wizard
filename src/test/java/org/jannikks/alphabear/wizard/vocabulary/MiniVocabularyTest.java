@@ -1,7 +1,8 @@
-package org.jannikks.alphabear.wizard;
+package org.jannikks.alphabear.wizard.vocabulary;
 
+import org.jannikks.alphabear.wizard.vocabulary.SimpleTrieVocabulary;
+import org.jannikks.alphabear.wizard.vocabulary.Vocabulary;
 import org.junit.Assert;
-
 import org.junit.Before;
 import org.junit.Test;
 

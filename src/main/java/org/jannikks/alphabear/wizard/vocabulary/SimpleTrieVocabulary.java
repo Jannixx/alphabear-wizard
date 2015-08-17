@@ -1,4 +1,4 @@
-package org.jannikks.alphabear.wizard;
+package org.jannikks.alphabear.wizard.vocabulary;
 
 
 

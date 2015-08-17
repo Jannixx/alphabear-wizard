@@ -1,7 +1,9 @@
-package org.jannikks.alphabear.wizard;
+package org.jannikks.alphabear.wizard.vocabulary;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import org.jannikks.alphabear.wizard.util.Constants;
 
 /**
  * Class representing a node in a trie.

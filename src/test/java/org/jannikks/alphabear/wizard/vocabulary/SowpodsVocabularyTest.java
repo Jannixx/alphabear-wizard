@@ -1,11 +1,15 @@
-package org.jannikks.alphabear.wizard;
+package org.jannikks.alphabear.wizard.vocabulary;
 
 import java.util.Scanner;
 
+import org.jannikks.alphabear.wizard.vocabulary.SimpleTrieVocabulary;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * @author Christiane Lemke
+ */
 public class SowpodsVocabularyTest {
 	
 	private SimpleTrieVocabulary simpleTrieVocabulary;
